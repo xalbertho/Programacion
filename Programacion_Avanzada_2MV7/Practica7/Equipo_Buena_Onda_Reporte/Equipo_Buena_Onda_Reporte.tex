@@ -1,0 +1,218 @@
+\documentclass[11pt]{article}  
+
+%%%%%%%% PREÁMBULO %%%%%%%%%%%%
+\title{Portada reporte practicas}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows.meta}
+\usetikzlibrary{shapes.geometric, arrows}
+\usetikzlibrary{positioning, arrows.meta}
+\usetikzlibrary{positioning, arrows.meta}
+\usepackage[spanish]{babel} 
+\usepackage[utf8]{inputenc}    
+\usepackage{amsmath} 
+\usepackage{xcolor}
+
+%\usepackage{amssymb} 
+\usepackage{graphicx} 
+\usepackage{color} 
+\usepackage{subfigure} 
+\usepackage{float} 
+\usepackage{capt-of} 
+\usepackage{sidecap} 
+	\sidecaptionvpos{figure}{c} 
+\usepackage{caption} 
+\usepackage{commath}  
+
+\usepackage{cancel} 
+ 
+\usepackage{anysize} 					
+\marginsize{2cm}{2cm}{2cm}{2cm} 
+
+\usepackage{appendix}
+\renewcommand{\appendixname}{Apéndices}
+\renewcommand{\appendixtocname}{Apéndices}
+\renewcommand{\appendixpagename}{Apéndices} 
+
+\usepackage[colorlinks=true,plainpages=true,citecolor=blue,linkcolor=blue]{hyperref}
+
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize UPIITA} 
+\fancyhead[R]{\footnotesize IPN}   
+\fancyfoot[R]{\footnotesize Programacion Avanzada}  
+\fancyfoot[C]{\thepage} 
+\fancyfoot[L]{\footnotesize Ing. Mecatrónica}  
+\renewcommand{\footrulewidth}{0.4pt}
+
+
+\usepackage{listings} 
+\definecolor{dkgreen}{rgb}{0,0.6,0} 
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{arrow} = [thick,->,>=stealth] 
+
+% configuración para el lenguaje que queramos utilizar
+\lstnewenvironment{python}[1][]
+{
+    \lstset{
+        language=Python,
+        basicstyle=\small\ttfamily,
+        keywordstyle=\color{blue}\bfseries,
+        commentstyle=\color{green!60!black},
+        stringstyle=\color{red},
+        showstringspaces=false,
+        frame=single,
+        numbers=left,
+        numberstyle=\tiny,
+        numbersep=5pt,
+        #1
+    }
+}
+{}
+\title{Plantilla portada}
+
+%%%%%%%% TERMINA PREÁMBULO %%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PORTADA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+																					%%%
+\begin{center}																		%%%
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}									%%%\left
+ 																					%%%
+ 																					
+\begin{minipage}{0.48\textwidth} \begin{flushleft}
+\includegraphics[scale = 0.63]{logo_upiita.png}
+\end{flushleft}\end{minipage}
+\begin{minipage}{0.48\textwidth} \begin{flushright}
+\includegraphics[scale = 0.35]{IPN.jpg}
+\end{flushright}\end{minipage}
+
+													 								%%%
+\vspace*{-1.5cm}								%%%
+																					%%%	
+\textsc{\huge Instituto Polit\'ecnico\\ \vspace{5px} Nacional}\\[1.5cm]	
+
+\textsc{\LARGE Unidad Profesional Interdisciplinaria en Ingenier\'ia y				%%%
+Tecnolog\'ias Avanzadas}\\[1.5cm]													%%%
+
+\begin{minipage}{0.9\textwidth} 
+\begin{center}																					%%%
+\textsc{\LARGE Programación Avanzada 2MV7}
+\end{center}
+\end{minipage}\\[0.5cm]
+%%%
+    																				%%%
+ 			\vspace*{1cm}																		%%%
+																					%%%
+\HRule \\[0.4cm]																	%%%
+{ \huge \bfseries Practica 7}\\[0.4cm]	%%%
+ 																					%%%
+\HRule \\[1.5cm]																	%%%
+ 																				%%%
+																					%%%
+\begin{minipage}{0.46\textwidth}													%%%
+\begin{flushleft} \large															%%%
+\emph{Autores:}\\	
+Barrios Mendez Jose Alberto\\
+Cordero Garcia Pablo Daniel\\
+Hernandez Tapia Jared Hassan\\
+Sanchez Velazquez Luis Enrique
+
+
+%%%
+			%\vspace*{2cm}	
+            													%%%
+										 						%%%
+\end{flushleft}																		%%%
+\end{minipage}		
+																%%%
+\begin{minipage}{0.52\textwidth}		
+\vspace{-0.6cm}											%%%
+\begin{flushright} \large															%%%
+\emph{Profesor:} \\																	%%%
+Cruz Mora Jose Luis\\
+													%%%
+\end{flushright}																	%%%
+\end{minipage}	
+\vspace*{1cm}
+%\begin{flushleft}
+ 	
+%\end{flushleft}
+%%%
+ 		\flushleft{\textbf{\Large Ing. Mecatrónica}	}\\																		%%%
+\vspace{2cm} 																				
+\begin{center}																					
+{\large \today}																	%%%
+ 			\end{center}												  						
+\end{center}							 											
+																					
+\newpage																		
+%%%%%%%%%%%%%%%%%%%% TERMINA PORTADA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents 
+
+\newpage
+
+\section{Objetivo.}
+Crear aplicaciones que se comuniquen por TCP/IP.
+
+\section{Introduccion.} 
+Para presentar esta practica es necesario tener en cuenta todos los conocimientos previos que se deben tener, los cuales abarcan desde POO hasta el conocimiento de conexión por puertos, a demas del uso evidente de interfaces graficas, como nosotros lo hemos venido manejando es mediante PyQt6. En esta practica se busca igualar y/o mejorar el servicio de mensajeria Windows-Live-Messenger. El cual hoy en dia no ya no es funcional, sin embargo anteriormente era muy socorrido ya que presentaba demasiadas cosas que para la epoca en la que fue lanzado era de gran relevancia, ademas de ser uno de los pilares para lo que hoy en dia se conoce como redes sociales, el impacto fue tal que hoy en dia buscaremos replicarlo con la ayuda de interfaces graficas, un arduino y la novedad que en esta practica que es el uso de sockets, todo programado evidentemente en  python.
+
+\section{Desarrollo.}
+
+
+\subsection{Creacion de la interfaz}
+
+
+
+
+
+\subsection{Compilacion}
+
+\begin{figure}[H]
+		\begin{center}
+ 			\includegraphics[width = .6\textwidth]{logo_upiita.png}
+ 			\captionof{figure}{\label{fig:IPN}Archivos } 
+ 			
+		\end{center} 
+\end{figure}
+
+\subsection{Implementacion de cada funcion}
+ 
+
+
+
+
+\section{Resultados.}
+
+
+
+\newpage
+\section{Conclusiones.}
+
+%%%%%%% Bibliografía %%%%%%%%    
+
+%\appendix  
+%\clearpage % o \cleardoublepage
+%\addappheadtotoc 
+%\appendixpage
+
+%\section{Anexos 1.}
+
+
+
+
+%\section{Anexos 2.}
+
+
+ 
+
+\end{document}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>271</width>
+    <height>100</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+	font: 11pt &quot;Tempus Sans ITC&quot;;
+	border: none;
+	background-color: transparent;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+
+#Dialog{
+	background-color: #1f232a;
+}
+
+QPushButton{
+border-radius:10px;
+}
+
+QPushButton:hover{
+border-radius:10px;
+background-color: rgb(23,139,216);
+}
+
+QLineEdit{
+border-radius:10px;
+border: 2px solid rgb(255,255,255);
+}
+
+QLineEdit:hover{
+border: 2px solid rgb(23,139,216);
+}
+
+QLineEdit:focus{
+color: rgb(0, 0, 0);
+background-color: rgb(255,255,255);
+border: 2px solid rgb(91,220,252);
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>INGRESA EL NOMBRE</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="buscar_usuario"/>
+   </item>
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QPushButton" name="boton_buscar">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>ACEPTAR</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

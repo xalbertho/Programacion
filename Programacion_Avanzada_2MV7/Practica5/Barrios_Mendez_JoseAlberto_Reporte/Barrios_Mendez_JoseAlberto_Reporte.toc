@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Objetivo.}{3}{section.1}%
+\contentsline {section}{\numberline {2}Introduccion.}{3}{section.2}%
+\contentsline {section}{\numberline {3}Desarrollo.}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Creacion de la interfaz}{3}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Resultados.}{9}{section.4}%
+\contentsline {section}{\numberline {5}Conclusiones.}{15}{section.5}%

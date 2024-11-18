@@ -1,0 +1,19 @@
+--- Ticket de Venta ---
+Cliente: <PyQt6.QtWidgets.QTextEdit object at 0x0000018D7FCB4550>
+Mascota: 
+GATO
+BRONTOSAURIO
+PERRO
+RAPTOR
+TIGRE
+TREX
+VIVORA
+Precio: 0
+300
+3000
+400
+4000
+1500
+5000
+900
+Total: 15100.0

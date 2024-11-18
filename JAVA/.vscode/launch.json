@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ejemplo14",
+            "request": "launch",
+            "mainClass": "ejemplo14",
+            "projectName": "JAVA_525b6455"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "JAVA_525b6455"
+        },
+        {
+            "type": "java",
+            "name": "ejemplo2",
+            "request": "launch",
+            "mainClass": "ejemplo2",
+            "projectName": "JAVA_525b6455"
+        },
+        {
+            "type": "java",
+            "name": "ejemplo3",
+            "request": "launch",
+            "mainClass": "ejemplo3",
+            "projectName": "JAVA_525b6455"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio1",
+            "request": "launch",
+            "mainClass": "ejercicio1",
+            "projectName": "JAVA_525b6455"
+        },
+        {
+            "type": "java",
+            "name": "perimetro",
+            "request": "launch",
+            "mainClass": "perimetro",
+            "projectName": "JAVA_525b6455"
+        }
+    ]
+}

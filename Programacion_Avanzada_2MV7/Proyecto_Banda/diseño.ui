@@ -1,0 +1,2694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1111</width>
+    <height>701</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+	border: none;
+	background-color: transparent;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	color: rgb(255, 255, 255);
+}
+
+QPushButton{
+	font: 14pt &quot;MS Sans Serif&quot;;
+	border-radius:16.5px;
+	background-color: rgba(45, 45, 53, 200);
+}
+
+QPushButton:hover{
+	border-radius:16.5px;
+	background-color: rgb(159, 159, 159);
+}
+
+QLabel{
+	border-radius:10px;
+	background-color: rgba(45, 45, 53, 220);
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_13">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="inicio">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QFrame" name="arriba">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="minimizarbtn1">
+             <property name="minimumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>iconos/remove.png</normaloff>iconos/remove.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="comprimirbtn1">
+             <property name="minimumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>iconos/fullscreen_exit.png</normaloff>iconos/fullscreen_exit.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="expandirbtn1">
+             <property name="minimumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>iconos/fullscreen.png</normaloff>iconos/fullscreen.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="cerrarbtn1">
+             <property name="minimumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>iconos/close.png</normaloff>iconos/close.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="principal">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <property name="spacing">
+            <number>15</number>
+           </property>
+           <item>
+            <spacer name="verticalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item alignment="Qt::AlignLeft">
+            <widget class="QLabel" name="label">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>MS Sans Serif</family>
+               <pointsize>14</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(214, 214, 214);</string>
+             </property>
+             <property name="text">
+              <string>      &lt;!-- Equipo # --&gt;      </string>
+             </property>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignLeft">
+            <widget class="QLabel" name="label_2">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>130</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>MS Sans Serif</family>
+               <pointsize>32</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>      Proyecto    
+      Final {            </string>
+             </property>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignLeft">
+            <widget class="QLabel" name="label_3">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>MS Sans Serif</family>
+               <pointsize>17</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 145, 77)</string>
+             </property>
+             <property name="text">
+              <string>      &lt;Por=&quot;Alarcón Pérez Mariana Itzel&quot;/&gt;      </string>
+             </property>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignLeft">
+            <widget class="QLabel" name="label_4">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>MS Sans Serif</family>
+               <pointsize>17</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 145, 77)</string>
+             </property>
+             <property name="text">
+              <string>      &lt;Por=&quot;Islas Islas Antonio&quot;/&gt;      </string>
+             </property>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignLeft">
+            <widget class="QLabel" name="label_5">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>MS Sans Serif</family>
+               <pointsize>17</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 145, 77)</string>
+             </property>
+             <property name="text">
+              <string>      &lt;Por=&quot;Pérez Bretón Laura Michelle&quot;/&gt;      </string>
+             </property>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignLeft">
+            <widget class="QLabel" name="label_6">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>65</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>MS Sans Serif</family>
+               <pointsize>32</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>      }      </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QPushButton" name="iniciar1">
+             <property name="minimumSize">
+              <size>
+               <width>50</width>
+               <height>45</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>50</width>
+               <height>45</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-radius:10px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>iconos/fast_forward.png</normaloff>iconos/fast_forward.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="menu">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <widget class="QFrame" name="arriba2">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QPushButton" name="regresarbtn">
+             <property name="minimumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>iconos/home.png</normaloff>iconos/home.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="minimizarbtn2">
+             <property name="minimumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>iconos/remove.png</normaloff>iconos/remove.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="comprimirbtn2">
+             <property name="minimumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>iconos/fullscreen_exit.png</normaloff>iconos/fullscreen_exit.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="expandirbtn2">
+             <property name="minimumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>iconos/fullscreen.png</normaloff>iconos/fullscreen.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="cerrarbtn2">
+             <property name="minimumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>iconos/close.png</normaloff>iconos/close.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QFrame" name="frame_7">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_15">
+               <item>
+                <spacer name="horizontalSpacer_8">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QLabel" name="foto">
+                 <property name="minimumSize">
+                  <size>
+                   <width>350</width>
+                   <height>350</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>350</width>
+                   <height>350</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true"> border: 1px solid rgb(214, 214, 214);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_9">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="label_8">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>MS Sans Serif</family>
+                 <pointsize>17</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>      Conteo      </string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_8">
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	border-radius:30px;
+}
+
+QPushButton:hover{
+	border-radius:30px;
+}</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_4">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QPushButton" name="iniciar2">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>60</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>60</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>iconos/play.png</normaloff>iconos/play.png</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>40</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pause2">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>60</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>60</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>iconos/pause.png</normaloff>iconos/pause.png</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>40</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="repetir2">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>60</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>60</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>iconos/replay.png</normaloff>iconos/replay.png</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>40</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_16">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_14">
+                <item>
+                 <spacer name="horizontalSpacer_6">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_29">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Sans Serif</family>
+                    <pointsize>17</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="text">
+                   <string>      Tiempo      </string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_5">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>51</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QLabel" name="tiempo">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Sans Serif</family>
+                    <pointsize>17</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="text">
+                   <string>      00:00      </string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_7">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="id">
+               <property name="minimumSize">
+                <size>
+                 <width>150</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>MS Sans Serif</family>
+                 <pointsize>17</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>            </string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_30">
+             <property name="spacing">
+              <number>9</number>
+             </property>
+             <property name="leftMargin">
+              <number>9</number>
+             </property>
+             <property name="topMargin">
+              <number>9</number>
+             </property>
+             <property name="rightMargin">
+              <number>9</number>
+             </property>
+             <property name="bottomMargin">
+              <number>9</number>
+             </property>
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="label_11">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>60</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>MS Sans Serif</family>
+                 <pointsize>25</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>      TOTAL      </string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="total">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>60</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>MS Sans Serif</family>
+                 <pointsize>25</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>          00          </string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_11">
+               <item>
+                <widget class="QFrame" name="frame_9">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_14">
+                  <property name="spacing">
+                   <number>9</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="label_15">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>35</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>MS Sans Serif</family>
+                      <pointsize>17</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+                     <string>        CUBO        </string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="total_cubo">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>60</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>MS Sans Serif</family>
+                      <pointsize>25</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+                     <string>      00      </string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QFrame" name="frame_6">
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_5">
+                     <property name="spacing">
+                      <number>10</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_4">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="rojo_cubo">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(255, 69, 69);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_16">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(255, 69, 69);</string>
+                         </property>
+                         <property name="text">
+                          <string> Rojo </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_5">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="verde_cubo">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(66, 255, 88);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_17">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(66, 255, 88);</string>
+                         </property>
+                         <property name="text">
+                          <string> Verde </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_6">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="azul_cubo">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(65, 166, 255);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_18">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(65, 166, 255);</string>
+                         </property>
+                         <property name="text">
+                          <string> Azul </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_7">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="amarillo_cubo">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(253, 255, 129);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_19">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(253, 255, 129);</string>
+                         </property>
+                         <property name="text">
+                          <string> Amarillo </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_3">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QFrame" name="frame_10">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_15">
+                  <property name="spacing">
+                   <number>9</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="label_28">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>35</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>MS Sans Serif</family>
+                      <pointsize>17</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+                     <string>      CILINDRO      </string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="total_cilindro">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>60</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>MS Sans Serif</family>
+                      <pointsize>25</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+                     <string>       00       </string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QFrame" name="frame_11">
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_8">
+                     <property name="spacing">
+                      <number>10</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_16">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="rojo_cilindro">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(255, 69, 69);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_31">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(255, 69, 69);</string>
+                         </property>
+                         <property name="text">
+                          <string> Rojo </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_17">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="verde_cilindro">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(66, 255, 88);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_33">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(66, 255, 88);</string>
+                         </property>
+                         <property name="text">
+                          <string> Verde </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_18">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="azul_cilindro">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(65, 166, 255);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_35">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(65, 166, 255);</string>
+                         </property>
+                         <property name="text">
+                          <string> Azul </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_19">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="amarillo_cilindro">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(253, 255, 129);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_37">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(253, 255, 129);</string>
+                         </property>
+                         <property name="text">
+                          <string> Amarillo </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_12">
+               <item>
+                <widget class="QFrame" name="frame_12">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_20">
+                  <property name="spacing">
+                   <number>9</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="label_38">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>35</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>MS Sans Serif</family>
+                      <pointsize>17</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+                     <string>      TRIANGULO      </string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="total_triangulo">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>60</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>MS Sans Serif</family>
+                      <pointsize>25</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+                     <string>        00         </string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QFrame" name="frame_13">
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_9">
+                     <property name="spacing">
+                      <number>10</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_21">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="rojo_triangulo">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(255, 69, 69);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_41">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(255, 69, 69);</string>
+                         </property>
+                         <property name="text">
+                          <string> Rojo </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_22">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="verde_triangulo">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(66, 255, 88);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_43">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(66, 255, 88);</string>
+                         </property>
+                         <property name="text">
+                          <string> Verde </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_23">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="azul_triangulo">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(65, 166, 255);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_45">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(65, 166, 255);</string>
+                         </property>
+                         <property name="text">
+                          <string> Azul </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_24">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="amarillo_triangulo">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(253, 255, 129);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_47">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(253, 255, 129);</string>
+                         </property>
+                         <property name="text">
+                          <string> Amarillo </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_4">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QFrame" name="frame_14">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_25">
+                  <property name="spacing">
+                   <number>9</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="label_48">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>35</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>MS Sans Serif</family>
+                      <pointsize>17</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+                     <string>        SUMA        </string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="total_suma">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>60</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>MS Sans Serif</family>
+                      <pointsize>25</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+                     <string>      00      </string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QFrame" name="frame_15">
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_10">
+                     <property name="spacing">
+                      <number>10</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_26">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="rojo_suma">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(255, 69, 69);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_51">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(255, 69, 69);</string>
+                         </property>
+                         <property name="text">
+                          <string> Rojo </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_27">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="verde_suma">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(66, 255, 88);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_53">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(66, 255, 88);</string>
+                         </property>
+                         <property name="text">
+                          <string> Verde </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_28">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="azul_suma">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(65, 166, 255);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_55">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(65, 166, 255);</string>
+                         </property>
+                         <property name="text">
+                          <string> Azul </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_29">
+                       <property name="spacing">
+                        <number>9</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="amarillo_suma">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>25</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(253, 255, 129);</string>
+                         </property>
+                         <property name="text">
+                          <string>00</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_57">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>60</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>MS Sans Serif</family>
+                           <pointsize>16</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(253, 255, 129);</string>
+                         </property>
+                         <property name="text">
+                          <string> Amarillo </string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

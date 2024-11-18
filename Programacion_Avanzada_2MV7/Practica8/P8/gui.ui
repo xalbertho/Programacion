@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+	font: 11pt &quot;Tempus Sans ITC&quot;;
+	border: none;
+	background-color: transparent;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	color: rgb(255, 255, 255);
+}
+
+QPushButton{
+	border-radius:15px;
+	background-color: rgb(46, 46, 46);
+}
+
+QPushButton:hover{
+	border-radius:15px;
+	background-color: rgb(80, 80, 80);
+}
+
+#principal QLabel{
+	border-radius:15px;
+	background-color: rgba(0, 0, 0, 100);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>800</width>
+     <height>550</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>800</width>
+     <height>550</height>
+    </size>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>550</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>800</width>
+      <height>550</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>800</width>
+      <height>550</height>
+     </size>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="leftMargin">
+      <number>9</number>
+     </property>
+     <item>
+      <widget class="QWidget" name="arriba" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_24">
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QPushButton" name="fotoBtn">
+               <property name="minimumSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>iconos/add_a_photo.png</normaloff>iconos/add_a_photo.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>20</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="label_23">
+               <property name="text">
+                <string>Foto</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QPushButton" name="cargarBtn">
+               <property name="minimumSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>iconos/add_photo.png</normaloff>iconos/add_photo.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>20</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>Subir</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_23">
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QPushButton" name="resBTn">
+               <property name="minimumSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>iconos/restart_alt.png</normaloff>iconos/restart_alt.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>20</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>Reestablecer</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>507</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_2">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QPushButton" name="minBtn">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>iconos/remove.png</normaloff>iconos/remove.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>20</width>
+               <height>20</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="cerrarBtn">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>iconos/close.png</normaloff>iconos/close.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>20</width>
+               <height>20</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="principal" native="true">
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_21">
+            <item>
+             <spacer name="verticalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Expanding</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>150</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item alignment="Qt::AlignHCenter">
+             <widget class="QPushButton" name="compararBtn">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>iconos/compare.png</normaloff>iconos/compare.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item alignment="Qt::AlignTop">
+             <widget class="QLabel" name="label_21">
+              <property name="text">
+               <string>Comparar</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_13">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="imagen">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>350</width>
+              <height>300</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>350</width>
+              <height>300</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: tranparent;</string>
+            </property>
+            <property name="text">
+             <string>Imagen</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_12">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_20">
+            <item>
+             <spacer name="verticalSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Expanding</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>150</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item alignment="Qt::AlignHCenter">
+             <widget class="QPushButton" name="cannyBtn">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>iconos/spa.png</normaloff>iconos/spa.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_22">
+              <property name="text">
+               <string>Canny</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item alignment="Qt::AlignHCenter">
+             <widget class="QPushButton" name="contornoBtn">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>iconos/filter_vintage.png</normaloff>iconos/filter_vintage.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item alignment="Qt::AlignTop">
+             <widget class="QLabel" name="label_20">
+              <property name="text">
+               <string>Contorno</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_10">
+          <item>
+           <spacer name="horizontalSpacer_8">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="tomarBtn">
+            <property name="minimumSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>iconos/radio_button.png</normaloff>iconos/radio_button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_9">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="menu" native="true">
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <property name="leftMargin">
+         <number>10</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>10</number>
+        </property>
+        <property name="bottomMargin">
+         <number>10</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <item>
+           <widget class="QPushButton" name="menuBtn">
+            <property name="minimumSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: transparent;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>iconos/stat_minus.png</normaloff>iconos/stat_minus.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="menuBtn_2">
+            <property name="minimumSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: transparent;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>iconos/keyboard_control.png</normaloff>iconos/keyboard_control.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_7">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QStackedWidget" name="stackedWidget">
+          <property name="currentIndex">
+           <number>2</number>
+          </property>
+          <widget class="QWidget" name="opciones">
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <property name="spacing">
+             <number>10</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <spacer name="horizontalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QPushButton" name="grisBtn">
+                <property name="minimumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>iconos/escala_grises.png</normaloff>iconos/escala_grises.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QLabel" name="label_5">
+                <property name="text">
+                 <string>Escala de
+grises</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_13">
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QPushButton" name="negBtn">
+                <property name="minimumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>iconos/negativos.png</normaloff>iconos/negativos.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QLabel" name="label_13">
+                <property name="text">
+                 <string>Conversión a
+negativo</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_14">
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QPushButton" name="izquierdaBtn">
+                <property name="minimumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>iconos/rotar_izquierda.png</normaloff>iconos/rotar_izquierda.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QLabel" name="label_14">
+                <property name="text">
+                 <string>Rotar a la
+izquierda</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_15">
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QPushButton" name="derechaBtn">
+                <property name="minimumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>iconos/rotar_derecha.png</normaloff>iconos/rotar_derecha.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QLabel" name="label_15">
+                <property name="text">
+                 <string>Rotar a la
+derecha</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_16">
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QPushButton" name="espejovBtn">
+                <property name="minimumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>iconos/espejo_vertical.png</normaloff>iconos/espejo_vertical.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QLabel" name="label_16">
+                <property name="text">
+                 <string>Espejo
+vertical</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_17">
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QPushButton" name="espejohBtn">
+                <property name="minimumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>iconos/espejo_horizontal.png</normaloff>iconos/espejo_horizontal.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QLabel" name="label_17">
+                <property name="text">
+                 <string>Espejo
+horizontal</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_18">
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QPushButton" name="desBTn">
+                <property name="minimumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>iconos/borroso.png</normaloff>iconos/borroso.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QLabel" name="label_18">
+                <property name="text">
+                 <string>Desenfoque</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_19">
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QPushButton" name="nitidezBtn">
+                <property name="minimumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>iconos/nitidez.png</normaloff>iconos/nitidez.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_19">
+                <property name="text">
+                 <string>Nitidez</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_28">
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QPushButton" name="idBtn">
+                <property name="minimumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>iconos/colorize.png</normaloff>iconos/colorize.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_27">
+                <property name="text">
+                 <string>Color</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Expanding</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>15</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_25">
+              <property name="rightMargin">
+               <number>9</number>
+              </property>
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QPushButton" name="guardarBTn">
+                <property name="minimumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>iconos/download.png</normaloff>iconos/download.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QLabel" name="label_24">
+                <property name="text">
+                 <string>Guardar</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="id_color">
+           <layout class="QHBoxLayout" name="horizontalLayout_13">
+            <item>
+             <spacer name="horizontalSpacer_10">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>271</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_12">
+              <item>
+               <widget class="QLabel" name="color_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>40</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>40</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border-radius:10px;
+border: 1px solid rgba(255, 255, 255, 150);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="rgb_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>100</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>100</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border-radius:10px;
+border: 1px solid rgba(255, 255, 255, 150);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_11">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>271</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="regresarBTn">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>iconos/check.png</normaloff>iconos/check.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="page_2">
+           <layout class="QVBoxLayout" name="verticalLayout_26">
+            <property name="spacing">
+             <number>10</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_25">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_8">
+              <item>
+               <spacer name="horizontalSpacer_5">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QSlider" name="cantidad">
+                <property name="styleSheet">
+                 <string notr="true">QSlider::groove:horizontal {
+    background: rgba(255, 255, 255, 180);
+    margin: 7px 0;
+}
+
+QSlider::handle:horizontal {
+    background: rgba(180, 226, 255, 200);
+    width: 15px;
+    margin: -5px 0; 
+    border-radius: 3px;
+}</string>
+                </property>
+                <property name="minimum">
+                 <number>0</number>
+                </property>
+                <property name="maximum">
+                 <number>100</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_6">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_7">
+              <item>
+               <widget class="QPushButton" name="aceptaBtn">
+                <property name="minimumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>iconos/check.png</normaloff>iconos/check.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_4">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QPushButton" name="cancelBtn">
+                <property name="minimumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>iconos/cancel.png</normaloff>iconos/cancel.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>550</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>800</width>
+      <height>550</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>800</width>
+      <height>550</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>fondos.jpeg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>widget</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

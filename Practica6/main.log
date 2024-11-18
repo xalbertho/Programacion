@@ -1,0 +1,782 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.12)  7 MAY 2024 07:09
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks20
+
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2023/09/29 v3.95 The Babel package
+\babel@savecnt=\count196
+\U@D=\dimen149
+\l@unhyphenated=\language79
+
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count197
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
+df
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks21
+\es@quotdepth=\count198
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel
+-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+)
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+)
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/generic/bibtex\apalike.sty
+\bibhang=\skip50
+)
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+
+
+! LaTeX Error: Command \bibhang already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.637 \newlength{\bibhang}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\bibsep=\skip51
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count199
+) (C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
+) (C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box51
+\beforetitleunit=\skip61
+\aftertitleunit=\skip62
+\ttl@plus=\dimen152
+\ttl@minus=\dimen153
+\ttl@toksa=\toks22
+\titlewidth=\dimen154
+\titlewidthlast=\dimen155
+\titlewidthfirst=\dimen156
+)
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count266
+\l__pdf_internal_box=\box52
+) (main.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+
+
+! Package natbib Error: Bibliography not compatible with author-year citations.
+
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ...mand\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+Check the bibliography entries for non-compliant syntax,
+or select author-year BibTeX style, e.g. plainnat
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count267
+\scratchdimen=\dimen157
+\scratchbox=\box53
+\nofMPsegments=\count268
+\nofMParguments=\count269
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count270
+\MPscratchDim=\dimen158
+\MPnumerator=\count271
+\makeMPintoPDFobject=\count272
+\everyMPtoPDFconversion=\toks24
+)
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+<upiita.png, id=1, 195.73125pt x 195.73125pt>
+File: upiita.png Graphic file (type png)
+<use upiita.png>
+Package pdftex.def Info: upiita.png  used on input line 27.
+(pdftex.def)             Requested size: 71.13188pt x 71.13219pt.
+<POLI2.png, id=3, 225.84375pt x 225.84375pt>
+File: POLI2.png Graphic file (type png)
+<use POLI2.png>
+Package pdftex.def Info: POLI2.png  used on input line 27.
+(pdftex.def)             Requested size: 71.13188pt x 71.13081pt.
+ [1
+
+{C:/Users/alber/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./upiita.png
+> <./POLI2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+[2]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 \\E
+        laboracion de la GUI
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 \\P
+        ara que nuestro codigo opere desde una GUI, primero debemos de estru...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<Captura de pantalla (754).png, id=16, 1606.0pt x 903.375pt>
+File: Captura de pantalla (754).png Graphic file (type png)
+<use Captura de pantalla (754).png>
+Package pdftex.def Info: Captura de pantalla (754).png  used on input line 96.
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+[3 <./Captura de pantalla (754).png>]
+<Captura de pantalla (755).png, id=21, 1606.0pt x 903.375pt>
+File: Captura de pantalla (755).png Graphic file (type png)
+<use Captura de pantalla (755).png>
+Package pdftex.def Info: Captura de pantalla (755).png  used on input line 108.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 108--109
+[][] 
+ []
+
+<Captura de pantalla (756).png, id=22, 1606.0pt x 903.375pt>
+File: Captura de pantalla (756).png Graphic file (type png)
+<use Captura de pantalla (756).png>
+Package pdftex.def Info: Captura de pantalla (756).png  used on input line 113.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 113--114
+[][] 
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 {\Large \\ E
+                  l stackWidget de simon says es para la modalidad de un sol...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[4 <./Captura de pantalla (755).png> <./Captura de pantalla (756).png>]
+<Captura de pantalla (757).png, id=28, 1606.0pt x 903.375pt>
+File: Captura de pantalla (757).png Graphic file (type png)
+<use Captura de pantalla (757).png>
+Package pdftex.def Info: Captura de pantalla (757).png  used on input line 124.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 124--125
+[][] 
+ []
+
+<Captura de pantalla (758).png, id=29, 1606.0pt x 903.375pt>
+File: Captura de pantalla (758).png Graphic file (type png)
+<use Captura de pantalla (758).png>
+Package pdftex.def Info: Captura de pantalla (758).png  used on input line 129.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 129--130
+[][] 
+ []
+
+[5 <./Captura de pantalla (757).png> <./Captura de pantalla (758).png>]
+<Captura de pantalla (759).png, id=35, 1606.0pt x 903.375pt>
+File: Captura de pantalla (759).png Graphic file (type png)
+<use Captura de pantalla (759).png>
+Package pdftex.def Info: Captura de pantalla (759).png  used on input line 141.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 141--142
+[][] 
+ []
+
+<Captura de pantalla (760).png, id=36, 1606.0pt x 903.375pt>
+File: Captura de pantalla (760).png Graphic file (type png)
+<use Captura de pantalla (760).png>
+Package pdftex.def Info: Captura de pantalla (760).png  used on input line 146.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 146--147
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+[6 <./Captura de pantalla (759).png> <./Captura de pantalla (760).png>]
+<Captura de pantalla (761).png, id=42, 1606.0pt x 903.375pt>
+File: Captura de pantalla (761).png Graphic file (type png)
+<use Captura de pantalla (761).png>
+Package pdftex.def Info: Captura de pantalla (761).png  used on input line 159.
+
+(pdftex.def)             Requested size: 375.80544pt x 211.38338pt.
+<Captura de pantalla (762).png, id=43, 1606.0pt x 903.375pt>
+File: Captura de pantalla (762).png Graphic file (type png)
+<use Captura de pantalla (762).png>
+Package pdftex.def Info: Captura de pantalla (762).png  used on input line 164.
+
+(pdftex.def)             Requested size: 375.80544pt x 211.38338pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 {\Large \\ T
+                  enemos nuevamente el modo multijugador pero en esta ocasio...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[7 <./Captura de pantalla (761).png> <./Captura de pantalla (762).png>]
+<Captura de pantalla (763).png, id=50, 1606.0pt x 903.375pt>
+File: Captura de pantalla (763).png Graphic file (type png)
+<use Captura de pantalla (763).png>
+Package pdftex.def Info: Captura de pantalla (763).png  used on input line 181.
+
+(pdftex.def)             Requested size: 258.36668pt x 145.32866pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 182.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 182.
+<arduino-proto-04-push-ledes-bb.png, id=51, 245.718pt x 339.669pt>
+File: arduino-proto-04-push-ledes-bb.png Graphic file (type png)
+<use arduino-proto-04-push-ledes-bb.png>
+Package pdftex.def Info: arduino-proto-04-push-ledes-bb.png  used on input line
+ 185.
+(pdftex.def)             Requested size: 234.8775pt x 324.69987pt.
+
+Overfull \hbox (25.71138pt too wide) in paragraph at lines 180--187
+[]$[]$  $[]$ 
+ []
+
+[8 <./Captura de pantalla (763).png> <./arduino-proto-04-push-ledes-bb.png (PNG
+ copy)>]
+<Captura de pantalla (764).png, id=56, 1606.0pt x 903.375pt>
+File: Captura de pantalla (764).png Graphic file (type png)
+<use Captura de pantalla (764).png>
+Package pdftex.def Info: Captura de pantalla (764).png  used on input line 198.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 {\Large \\J
+                 uegoThread maneja el juego con múltiples jugadores, mientr...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[9 <./Captura de pantalla (764).png>]
+<Captura de pantalla (765).png, id=61, 1606.0pt x 903.375pt>
+File: Captura de pantalla (765).png Graphic file (type png)
+<use Captura de pantalla (765).png>
+Package pdftex.def Info: Captura de pantalla (765).png  used on input line 209.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+ [10 <./Captura de pantalla (765).png>]
+<Captura de pantalla (766).png, id=66, 1606.0pt x 903.375pt>
+File: Captura de pantalla (766).png Graphic file (type png)
+<use Captura de pantalla (766).png>
+Package pdftex.def Info: Captura de pantalla (766).png  used on input line 220.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+
+[11 <./Captura de pantalla (766).png>]
+<Captura de pantalla (767).png, id=71, 1606.0pt x 903.375pt>
+File: Captura de pantalla (767).png Graphic file (type png)
+<use Captura de pantalla (767).png>
+Package pdftex.def Info: Captura de pantalla (767).png  used on input line 232.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+ [12 <./Captura de pantalla (767).png>]
+<Captura de pantalla (768).png, id=76, 1606.0pt x 903.375pt>
+File: Captura de pantalla (768).png Graphic file (type png)
+<use Captura de pantalla (768).png>
+Package pdftex.def Info: Captura de pantalla (768).png  used on input line 243.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+
+[13 <./Captura de pantalla (768).png>]
+<Captura de pantalla (769).png, id=82, 1606.0pt x 903.375pt>
+File: Captura de pantalla (769).png Graphic file (type png)
+<use Captura de pantalla (769).png>
+Package pdftex.def Info: Captura de pantalla (769).png  used on input line 253.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+ [14 <./Captura de pantalla (769).png>]
+<Captura de pantalla (770).png, id=87, 1606.0pt x 903.375pt>
+File: Captura de pantalla (770).png Graphic file (type png)
+<use Captura de pantalla (770).png>
+Package pdftex.def Info: Captura de pantalla (770).png  used on input line 268.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+
+[15 <./Captura de pantalla (770).png>]
+<Captura de pantalla (771).png, id=92, 1606.0pt x 903.375pt>
+File: Captura de pantalla (771).png Graphic file (type png)
+<use Captura de pantalla (771).png>
+Package pdftex.def Info: Captura de pantalla (771).png  used on input line 284.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+ [16 <./Captura de pantalla (771).png>]
+<Captura de pantalla (772).png, id=97, 1606.0pt x 903.375pt>
+File: Captura de pantalla (772).png Graphic file (type png)
+<use Captura de pantalla (772).png>
+Package pdftex.def Info: Captura de pantalla (772).png  used on input line 300.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+
+[17 <./Captura de pantalla (772).png>]
+<Captura de pantalla (773).png, id=102, 1606.0pt x 903.375pt>
+File: Captura de pantalla (773).png Graphic file (type png)
+<use Captura de pantalla (773).png>
+Package pdftex.def Info: Captura de pantalla (773).png  used on input line 311.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+ [18 <./Captura de pantalla (773).png>]
+<Captura de pantalla (774).png, id=107, 1606.0pt x 903.375pt>
+File: Captura de pantalla (774).png Graphic file (type png)
+<use Captura de pantalla (774).png>
+Package pdftex.def Info: Captura de pantalla (774).png  used on input line 322.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+
+[19 <./Captura de pantalla (774).png>]
+<Captura de pantalla (775).png, id=113, 1606.0pt x 903.375pt>
+File: Captura de pantalla (775).png Graphic file (type png)
+<use Captura de pantalla (775).png>
+Package pdftex.def Info: Captura de pantalla (775).png  used on input line 333.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+ [20 <./Captura de pantalla (775).png>]
+<Captura de pantalla (776).png, id=118, 1606.0pt x 903.375pt>
+File: Captura de pantalla (776).png Graphic file (type png)
+<use Captura de pantalla (776).png>
+Package pdftex.def Info: Captura de pantalla (776).png  used on input line 346.
+
+(pdftex.def)             Requested size: 469.75502pt x 264.23268pt.
+
+[21 <./Captura de pantalla (776).png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.363 {\Large\\ C
+                 uando ejecutamos nuestro codigo, nos parece la pantalla pri...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<cbdf35fc-d1bb-4aa4-8690-dcb82a1c29b8.jpg, id=123, 668.4975pt x 817.0525pt>
+File: cbdf35fc-d1bb-4aa4-8690-dcb82a1c29b8.jpg Graphic file (type jpg)
+<use cbdf35fc-d1bb-4aa4-8690-dcb82a1c29b8.jpg>
+Package pdftex.def Info: cbdf35fc-d1bb-4aa4-8690-dcb82a1c29b8.jpg  used on inpu
+t line 368.
+(pdftex.def)             Requested size: 234.8775pt x 287.06978pt.
+<f7e61b87-70d0-4296-bf4a-1963941b228b.jpg, id=124, 1606.0pt x 1204.5pt>
+File: f7e61b87-70d0-4296-bf4a-1963941b228b.jpg Graphic file (type jpg)
+<use f7e61b87-70d0-4296-bf4a-1963941b228b.jpg>
+Package pdftex.def Info: f7e61b87-70d0-4296-bf4a-1963941b228b.jpg  used on inpu
+t line 377.
+(pdftex.def)             Requested size: 234.8775pt x 176.14592pt.
+[22 <./cbdf35fc-d1bb-4aa4-8690-dcb82a1c29b8.jpg> <./f7e61b87-70d0-4296-bf4a-196
+3941b228b.jpg>]
+<1371cd04-dfd8-4b58-b8c8-869f93134617.jpg, id=128, 902.37125pt x 1604.99625pt>
+File: 1371cd04-dfd8-4b58-b8c8-869f93134617.jpg Graphic file (type jpg)
+<use 1371cd04-dfd8-4b58-b8c8-869f93134617.jpg>
+Package pdftex.def Info: 1371cd04-dfd8-4b58-b8c8-869f93134617.jpg  used on inpu
+t line 388.
+(pdftex.def)             Requested size: 234.8775pt x 417.7545pt.
+ [23 <./1371cd04-dfd8-4b58-b8c8-869f93134617.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
+
+ []
+
+[24]
+Underfull \hbox (badness 4353) in paragraph at lines 423--424
+[]\OT1/cmr/m/n/14.4 ditronikx. (2022, Ju-ne 5). co-mu-ni-ca-ci^^Son y con-trol 
+con python y
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 423--424
+\OT1/cmr/m/n/14.4 ar-duino me-dian-te py-se-rial y vi-sual co-de stu-dio [Vi-de
+o]. You-Tu-be.
+ []
+
+
+! LaTeX Error: Unicode character ✅ (U+2705)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.425 ...tem  Julian Ruiz. (2021, January 14). ✅
+                                                  Como conectar PYTHON con A...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character � (U+FFFD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.425 .... ✅Como conectar PYTHON con ARDUINO �
+                                                  � [2022] | Julian Ruiz [...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character � (U+FFFD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.425 ...��Como conectar PYTHON con ARDUINO ��
+                                                   [2022] | Julian Ruiz [Vid...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
+[]\OT1/cmr/m/n/14.4 ulian Ruiz. (2021, Ja-nuary 14). Co-mo co-nec-tar PYTHON
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
+\OT1/cmr/m/n/14.4 con AR-DUINO  [2022] | Ju-lian Ruiz [Vi-deo]. You-Tu-be.
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.427 ...ouTube. https://www.youtube.com/watch?v=_
+                                                  DMFDjNYNVI
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 427.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.428 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 427--428
+[]\OT1/cmr/m/n/14.4 etwork Wa-rriors. (2021, Sep-tem-ber 27). Co-mu-ni-ca-ci^^S
+on Python - Ar-
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.428 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[25] (main.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
+ )
+(\end occurred inside a group at level 2)
+
+### simple group (level 2) entered at line 176 ({)
+### simple group (level 1) entered at line 168 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 4383 strings out of 475248
+ 74664 string characters out of 5757812
+ 1926785 words of memory out of 5000000
+ 25897 multiletter control sequences out of 15000+600000
+ 561773 words of font info for 48 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,12n,65p,755b,391s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/alber/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/alber/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/alber/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on main.pdf (25 pages, 5907537 bytes).
+PDF statistics:
+ 163 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+
