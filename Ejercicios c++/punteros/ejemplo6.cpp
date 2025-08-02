@@ -2,7 +2,7 @@
 arreglo dinamico, en una funcion independiente
 busca un numero en particular, usando cualquier metodo 
 de busqueda*/
-
+//trakas hijuesuchingDAMADRE
 #include <iostream>
 
 using namespace std;
