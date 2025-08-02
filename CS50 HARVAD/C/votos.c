@@ -2,6 +2,7 @@
 // la complementacion de lo que se plantea en el ejercicio 3 de la semana 3(algoritmos)
 // del curso "CS50" de Harvard
 
+// trakas hijuesuputamadre
 #include <cs50.h>
 #include <string.h>
 #include <stdio.h>
